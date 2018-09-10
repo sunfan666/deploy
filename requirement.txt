@@ -1,0 +1,9 @@
+Django==1.11.13
+djangorestframework
+django-filter==1.1.0
+Markdown==2.6.11
+mysqlclient
+pytz==2018.4
+requests
+ansible
+djangorestframework-jwt
