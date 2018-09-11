@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e711af76-fe7f-4963-b407-9eab2cfbab1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="e711af76-fe7f-4963-b407-9eab2cfbab1e" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -462,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536681188044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改 README.md 测试">
+      <created>1536681285064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536681285064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -504,7 +508,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改 README.md 测试一把" />
     <MESSAGE value="修改 README.md 测试一把 哈哈" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 README.md 测试一把 哈哈" />
+    <MESSAGE value="修改 README.md 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 README.md 测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
