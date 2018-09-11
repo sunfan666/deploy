@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e711af76-fe7f-4963-b407-9eab2cfbab1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -469,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536681285064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试一下">
+      <created>1536681421662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536681421662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +518,8 @@
     <MESSAGE value="修改 README.md 测试一把" />
     <MESSAGE value="修改 README.md 测试一把 哈哈" />
     <MESSAGE value="修改 README.md 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 README.md 测试" />
+    <MESSAGE value="测试一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试一下" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
