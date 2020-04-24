@@ -52,7 +52,7 @@ INSTALLED_APPS = [
 
 AUTH_USER_MODEL = "users.User"
 
-DOMAIN = "@reboot.com"
+DOMAIN = "@kaochong.com"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -189,10 +189,10 @@ CORS_ALLOW_HEADERS = (
 
 EMAIL_HOST = "smtp.exmail.qq.com"
 EMAIL_PORT = 465
-EMAIL_HOST_USER = "sa-notice@yuanxin-inc.com"
-EMAIL_HOST_PASSWORD = "Miao13456"
+EMAIL_HOST_USER = "notice@kaochong.com"
+EMAIL_HOST_PASSWORD = "Kaochong456"
 EMAIL_USE_SSL = True
-EMAIL_FROM = "sa-notice@yuanxin-inc.com"
+EMAIL_FROM = "notice@kaochong.com"
 
 
 # Celery
@@ -208,10 +208,12 @@ BROKER_TRANSPORT = 'redis'
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 
-GITLAB_HTTP_URI = "http://123.59.204.215/"
-GITLAB_TOKEN = "G_kTyBbvWmWMBnsyE-9J"
+GITLAB_HTTP_URI = "http://gitlab.xuanke.com/"
+# GITLAB_TOKEN = "EBJAbNDEao8wLsHHmVMA"
+GITLAB_TOKEN = "M78J6GoQTuy_ZYUt_aA-"
 
-JENKINS_URL = "http://123.59.204.215:8088/"
+
+JENKINS_URL = "http://x.x.x.x:8088/"
 JENINS_TOKEN = "4dfcb7e9423a1c8733cddd595ddd9142"
 JENKINS_USERNAME = 'admin'
-JENKINS_PASSWORD = 'admin@51reboot'
+JENKINS_PASSWORD = 'admin@123'

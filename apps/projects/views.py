@@ -1,7 +1,7 @@
 from django.views.generic import View
-from django.http import  HttpResponse
-from utils.gitlab_api import  get_user_projects, get_project_versions
-import  json
+from django.http import HttpResponse
+from utils.gitlab_api import get_user_projects, get_project_versions
+import json
 
 
 class ProjectListView(View):
@@ -9,7 +9,8 @@ class ProjectListView(View):
     登陆用户所有项目列表
     """
     def get(self, request):
-        my_projects = get_user_projects(request)
+        username = request.GET.get('username')
+        my_projects = get_user_projects(username)
         json_list = []
         for project in my_projects:
             json_dict = {}
@@ -29,15 +30,7 @@ class ProjectVersionsView(View):
 
     def get(self, request):
         project_id = request.GET.get('project_id')
-        print(project_id)
         tags = get_project_versions(int(project_id))
         tags = [[tag.name, tag.message] for tag in tags]
         return HttpResponse(json.dumps(tags), content_type='application/json')
-
-
-
-
-
-
-
 
