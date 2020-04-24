@@ -41,7 +41,7 @@ router.register(r'book', BookViewSet, base_name='book')
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(router.urls)),
-    url(r'^docs/', include_docs_urls(title="图书管理系统")),
+    url(r'^docs/', include_docs_urls(title="自动发布系统")),
     url('^projects/', include('projects.urls', namespace='projects')),
     url(r'^login/', obtain_jwt_token),
     url(r'^jwt-refresh/', refresh_jwt_token),

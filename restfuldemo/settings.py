@@ -209,8 +209,7 @@ CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 
 GITLAB_HTTP_URI = "http://gitlab.xuanke.com/"
-# GITLAB_TOKEN = "EBJAbNDEao8wLsHHmVMA"
-GITLAB_TOKEN = "M78J6GoQTuy_ZYUt_aA-"
+GITLAB_TOKEN = "EBJAbNDEao8wLsHHmVMA"
 
 
 JENKINS_URL = "http://x.x.x.x:8088/"
