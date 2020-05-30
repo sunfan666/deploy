@@ -189,10 +189,10 @@ CORS_ALLOW_HEADERS = (
 
 EMAIL_HOST = "smtp.exmail.qq.com"
 EMAIL_PORT = 465
-EMAIL_HOST_USER = "notice@kaochong.com"
-EMAIL_HOST_PASSWORD = "Kaochong456"
+EMAIL_HOST_USER = "notice@xxxx.com"
+EMAIL_HOST_PASSWORD = "xxxxx"
 EMAIL_USE_SSL = True
-EMAIL_FROM = "notice@kaochong.com"
+EMAIL_FROM = "notice@xxxx.com"
 
 
 # Celery
@@ -208,11 +208,11 @@ BROKER_TRANSPORT = 'redis'
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 
-GITLAB_HTTP_URI = "http://gitlab.xuanke.com/"
-GITLAB_TOKEN = "EBJAbNDEao8wLsHHmVMA"
+GITLAB_HTTP_URI = "http://gitlab.xxxxx.com/"
+GITLAB_TOKEN = "EBJAbNDEa8wLsHHm"
 
 
 JENKINS_URL = "http://x.x.x.x:8088/"
-JENINS_TOKEN = "4dfcb7e9423a1c8733cddd595ddd9142"
+JENINS_TOKEN = "4dfcb7e9423a733cddd595ddd9142"
 JENKINS_USERNAME = 'admin'
 JENKINS_PASSWORD = 'admin@123'
