@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '_us9!=7^s_f_)h4rg0st_+w@btv&_gy))^3ss@ecn6_zb$pky$'
+SECRET_KEY = '_us9!=7^s_f_)h4rg0_+w@btv&_gy))^3ss@ecn6_zb$pky$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -52,7 +52,7 @@ INSTALLED_APPS = [
 
 AUTH_USER_MODEL = "users.User"
 
-DOMAIN = "@kaochong.com"
+DOMAIN = "@xxxx.com"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
